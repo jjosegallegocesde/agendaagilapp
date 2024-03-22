@@ -1,0 +1,268 @@
+[
+    {
+      "nombreUsuario": "Laura Camila Hernández",
+      "documento":"123456789",
+      "contraseña":"admin123",
+      "medicoDeFamilia": "Dra. María López",
+      "grupoDeIngreso": "Grupo A",
+      "ips": "IPS Salud y Bienestar",
+      "citasMedicas": [
+        {
+          "fecha": "2024-03-20",
+          "especialidad": "Cardiología",
+          "direccion": "Calle 100 # 20-40, Ciudad Salud"
+        },
+        {
+          "fecha": "2024-04-02",
+          "especialidad": "Gastroenterología",
+          "direccion": "Calle 105 # 23-45, Ciudad Salud"
+        },
+        {
+          "fecha": "2024-04-15",
+          "especialidad": "Endocrinología",
+          "direccion": "Calle 110 # 50-60, Ciudad Salud"
+        }
+      ]
+    },
+    {
+      "nombreUsuario": "Carlos Andrés Vélez",
+      "documento":"123456789",
+      "contraseña":"admin124",
+      "medicoDeFamilia": "Dr. Juan Esteban Correa",
+      "grupoDeIngreso": "Grupo B",
+      "ips": "IPS Integral Salud",
+      "citasMedicas": [
+        {
+          "fecha": "2024-03-25",
+          "especialidad": "Endocrinología",
+          "direccion": "Calle 33 # 12-45, Ciudad Oeste"
+        },
+        {
+          "fecha": "2024-04-09",
+          "especialidad": "Neurología",
+          "direccion": "Calle 40 # 13-55, Ciudad Oeste"
+        }
+      ]
+    },
+    {
+      "nombreUsuario": "Sofía Morales",
+      "documento":"123456789",
+      "contraseña":"admin125",
+      "medicoDeFamilia": "Dra. Lina Marcela Ruiz",
+      "grupoDeIngreso": "Grupo C",
+      "ips": "IPS Vida Plena",
+      "citasMedicas": [
+        {
+          "fecha": "2024-04-05",
+          "especialidad": "Dermatología",
+          "direccion": "Carrera 50 # 40-20, Ciudad Norte"
+        }
+      ]
+    },
+    {
+      "nombreUsuario": "Miguel Ángel Torres",
+      "documento":"123456789",
+      "contraseña":"admin126",
+      "medicoDeFamilia": "Dr. Carlos Fernández",
+      "grupoDeIngreso": "Grupo D",
+      "ips": "IPS Mi Salud",
+      "citasMedicas": [
+        {
+          "fecha": "2024-04-15",
+          "especialidad": "Pediatría",
+          "direccion": "Avenida Segunda # 15-30, Ciudad Jardín"
+        },
+        {
+          "fecha": "2024-05-20",
+          "especialidad": "Oftalmología",
+          "direccion": "Avenida Tercera # 18-40, Ciudad Jardín"
+        }
+      ]
+    },
+    {
+      "nombreUsuario": "Ana María Gómez",
+      "documento":"123456789",
+      "contraseña":"admin127",
+      "medicoDeFamilia": "Dra. Susana Pineda",
+      "grupoDeIngreso": "Grupo E",
+      "ips": "IPS Salud Integral",
+      "citasMedicas": [
+        {
+          "fecha": "2024-05-10",
+          "especialidad": "Neurología",
+          "direccion": "Calle 44 # 56-78, Ciudad Central"
+        },
+        {
+          "fecha": "2024-06-01",
+          "especialidad": "Cardiología",
+          "direccion": "Calle 47 # 63-88, Ciudad Central"
+        }
+      ]
+    },
+    {
+      "nombreUsuario": "Diego Fernando Ruiz",
+      "documento":"123456789",
+      "contraseña":"admin127",
+      "medicoDeFamilia": "Dr. Alejandro Mora",
+      "grupoDeIngreso": "Grupo F",
+      "ips": "IPS Bienestar Total",
+      "citasMedicas": [
+        {
+          "fecha": "2024-05-20",
+          "especialidad": "Cardiología",
+          "direccion": "Avenida Principal # 23-45, Ciudad Este"
+        }
+      ]
+    },
+    {
+      "nombreUsuario": "Patricia Elena Salazar",
+      "documento":"123456789",
+      "contraseña":"admin128",
+      "medicoDeFamilia": "Dra. Carolina Mejía",
+      "grupoDeIngreso": "Grupo G",
+      "ips": "IPS Salud Para Todos",
+      "citasMedicas": [
+        {
+          "fecha": "2024-06-01",
+          "especialidad": "Gastroenterología",
+          "direccion": "Calle Nueva # 67-89, Ciudad Oeste"
+        },
+        {
+          "fecha": "2024-07-02",
+          "especialidad": "Pediatría",
+          "direccion": "Calle Vieja # 34-56, Ciudad Oeste"
+        },
+        {
+          "fecha": "2024-08-03",
+          "especialidad": "Dermatología",
+          "direccion": "Calle Antigua # 12-34, Ciudad Oeste"
+        }
+      ]
+    },
+    {
+      "nombreUsuario": "Jorge Eduardo López",
+      "documento":"123456789",
+      "contraseña":"admin1287",
+      "medicoDeFamilia": "Dr. Manuel González",
+      "grupoDeIngreso": "Grupo H",
+      "ips": "IPS Horizonte Saludable",
+      "citasMedicas": [
+        {
+          "fecha": "2024-06-15",
+          "especialidad": "Endocrinología",
+          "direccion": "Carrera 34 # 12-56, Ciudad Sur"
+        }
+      ]
+    },
+    {
+      "nombreUsuario": "Felipe Andrés Rojas",
+      "documento":"123456789",
+      "contraseña":"admin1225",
+      "medicoDeFamilia": "Dra. Elena Martínez",
+      "grupoDeIngreso": "Grupo D",
+      "ips": "Centro Médico Del Valle",
+      "citasMedicas": [
+        {
+          "fecha": "2024-03-28",
+          "especialidad": "Cardiología",
+          "direccion": "Calle 200 # 14-56, Ciudad Verde"
+        },
+        {
+          "fecha": "2024-04-12",
+          "especialidad": "Gastroenterología",
+          "direccion": "Avenida de las Flores # 67-89, Ciudad Verde"
+        },
+        {
+          "fecha": "2024-04-26",
+          "especialidad": "Endocrinología",
+          "direccion": "Calle 205 # 23-45, Ciudad Verde"
+        }
+      ]
+    },
+    {
+      "nombreUsuario": "Carolina Jiménez Silva",
+      "documento":"123456789",
+      "contraseña":"admin12387",
+      "medicoDeFamilia": "Dr. Álvaro Uribe",
+      "grupoDeIngreso": "Grupo E",
+      "ips": "Salud Integral IPS",
+      "citasMedicas": [
+        {
+          "fecha": "2024-04-01",
+          "especialidad": "Cardiología",
+          "direccion": "Calle 250 # 12-34, Ciudad Jardín"
+        },
+        {
+          "fecha": "2024-04-16",
+          "especialidad": "Gastroenterología",
+          "direccion": "Avenida del Río # 56-78, Ciudad Jardín"
+        },
+        {
+          "fecha": "2024-04-30",
+          "especialidad": "Endocrinología",
+          "direccion": "Calle 255 # 89-00, Ciudad Jardín"
+        }
+      ]
+    },
+    {
+      "nombreUsuario": "María Isabel Cárdenas",
+      "documento":"123456789",
+      "contraseña":"admin1278",
+      "medicoDeFamilia": "Dra. Laura Ramírez",
+      "grupoDeIngreso": "Grupo I",
+      "ips": "IPS Vida y Salud",
+      "citasMedicas": [
+        {
+          "fecha": "2024-06-30",
+          "especialidad": "Dermatología",
+          "direccion": "Avenida Libertador # 14-76, Ciudad Norte"
+        },
+        {
+          "fecha": "2024-07-15",
+          "especialidad": "Cardiología",
+          "direccion": "Avenida Revolución # 45-67, Ciudad Norte"
+        }
+      ]
+    },
+    {
+    "nombreUsuario": "Isabella María Duarte",
+    "documento":"12345678947",
+      "contraseña":"admin123",
+    "medicoDeFamilia": "Dra. Sofía Carrillo",
+    "grupoDeIngreso": "Grupo C",
+    "ips": "IPS Nueva Esperanza",
+    "citasMedicas": [
+      {
+        "fecha": "2024-03-25",
+        "especialidad": "Cardiología",
+        "direccion": "Calle 102 # 56-78, Ciudad Luna"
+      },
+      {
+        "fecha": "2024-04-08",
+        "especialidad": "Gastroenterología",
+        "direccion": "Avenida Progreso # 22-98, Ciudad Luna"
+      },
+      {
+        "fecha": "2024-04-20",
+        "especialidad": "Endocrinología",
+        "direccion": "Calle 120 # 80-90, Ciudad Luna"
+      }
+    ]
+  },
+    {
+      "nombreUsuario": "Oscar Mauricio Navarro",
+      "documento":"123456789478",
+      "contraseña":"admin123",
+      "medicoDeFamilia": "Dr. Esteban Quito",
+      "grupoDeIngreso": "Grupo J",
+      "ips": "IPS Salud Segura",
+      "citasMedicas": [
+        {
+          "fecha": "2024-07-15",
+          "especialidad": "Pediatría",
+          "direccion": "Calle Larga # 45-123, Ciudad Este"
+        }
+      ]
+    }
+  ]
+  

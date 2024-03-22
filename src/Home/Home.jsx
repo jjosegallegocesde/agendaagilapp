@@ -1,31 +1,19 @@
 import "./Home.css"
 
-import { inventario } from "../utils/medicamentos"
+import basedatos from "../utils/basedatos.json"
+
 
 export function Home(){
 
-    //ZONA DE MANIPULACION DE DATOS
-    let nombrePaciente="Juan Jose Gallego"
-    let sedePaciente="Suramericana"
-    console.log(inventario)
-
-    //A LOS ARREGLOS LOS PUEDO MANIPULAR
-    //PARA CONTROLAR QUE INFORMACION VOY A PRESENTAR
-
-    //1. FUNCION DE FILTRADO DE DATOS
-    //CONDICION DE FILTRADO (PREGUNTA (SI/NO))
-    let resultado=inventario.filter(function(auxiliar){
-        return(auxiliar.nombre=="acetaminofen")
-    })
-    console.log(resultado)
-
+    console.log(basedatos[0])
+    
     return( //zona de renderizado
         <>
             <section className="container mt-5">
                 <div className="row">
                     <div className="col-12 col-md-6">
                         <h3 className="fuente">Servicios a un clic</h3>
-                        <h2 className="text-muted">HOLA <span className="fuente">{nombrePaciente}</span></h2>
+                        <h2 className="text-muted">HOLA <span className="fuente">{basedatos[0].nombreUsuario}</span></h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque delectus nesciunt tenetur error nostrum enim quam corrupti praesentium, facere quasi mollitia accusamus, modi rem reprehenderit ad incidunt excepturi tempore, quia neque officia doloribus. Facilis excepturi qui minus consectetur illum numquam, magni soluta, dolor ducimus culpa veritatis vel dignissimos, consequuntur aliquam?</p>
                     </div>
                     <div className="col-12 col-md-6">
@@ -42,7 +30,7 @@ export function Home(){
                             </div>
                             <div className="col-12 col-md-10 mt-5">
                                 <br />
-                               <p>FERNANDO FERNANDEZ FERRERIA</p> 
+                               <p>Medico familia: {basedatos[0].medicoDeFamilia}</p> 
                             </div>
                         </div>
 
@@ -50,6 +38,34 @@ export function Home(){
                        
 
                     </div>
+                </div>
+            </section>
+
+            <hr />
+            <section className="container">
+                <div className="row">
+                    <div className="col-12 col-md-5">
+                        <h5>PACIENTE {basedatos[0].nombreUsuario}, Estas son tus proximas citas: </h5>
+
+                    </div>
+                </div>
+            </section>
+            <section className="container my-5">
+                <div className="row row-cols-1 row-cols-md-3">
+                    {
+                        basedatos[0].citasMedicas.map(function(cita){
+                            return(
+                                <div className="col">
+                                    <div className="card h-100 shadow px-2">
+                                        <h3>{cita.especialidad}</h3>
+                                        <h4>Fecha: {cita.fecha}</h4>
+                                        <h4>{cita.direccion}</h4>
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
+
                 </div>
             </section>
         </>

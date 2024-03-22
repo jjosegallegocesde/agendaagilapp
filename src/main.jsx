@@ -8,9 +8,10 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 
 
 import { Home } from './Home/Home' 
+import { Formulario } from './Formulario/Formulario'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home></Home>
+    <Formulario></Formulario>
   </React.StrictMode>,
 )
