@@ -2,11 +2,13 @@ import { useState } from "react"
 
 export function Formulario(){
 
-    const[verCedula,modificarCedula]=useState("")
-    const[verContraseña,modificarContraseña]=useState("")
+    const[verCedula,guardarCedula]=useState("")
+    const[verContraseña,guardarContraseña]=useState("")
 
-    function procesarFormulario(){
-        
+    function procesarFormulario(evento){
+        //que hago si le hacen clic al boton del formulario?
+        evento.preventDefault()
+        console.log("le hicieron clic al boton del formulario")
     } 
 
     return(
@@ -15,7 +17,7 @@ export function Formulario(){
                 <div className="row justify-content-center text-center">
                     <div className="col-12 col-md-6">
                         <img src="../../src/assets/logo-sura.webp" alt="" className="img-fluid" />
-                        <form className="border rounded p-4">
+                        <form className="border rounded p-4" onSubmit={procesarFormulario}>
                             <h2>Controla tu salud</h2>
 
                             <div class="input-group mb-3 mt-5">
@@ -25,6 +27,7 @@ export function Formulario(){
                                     class="form-control" 
                                     placeholder="Numero cedula"
                                     id="identificacion"
+                                    onChange={function(evento){guardarCedula(evento.target.value)}}
                                 />
                             </div>
 
