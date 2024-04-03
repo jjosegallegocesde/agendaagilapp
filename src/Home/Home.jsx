@@ -3,7 +3,7 @@ import "./Home.css"
 import basedatos from "../utils/basedatos.json"
 
 
-export function Home(){
+export function Home(){   
 
     console.log(basedatos[0])
     
